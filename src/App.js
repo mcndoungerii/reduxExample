@@ -1,6 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Post from "./components/post";
+import PostForm from "./components/postForm";
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <PostForm />
+      <hr />
+      <Post />
     </div>
   );
 }
