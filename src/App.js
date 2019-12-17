@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Post from "./components/post";
+import Posts from "./components/posts";
 import PostForm from "./components/postForm";
 import { Provider } from "react-redux";
 import store from "./store/store";
@@ -26,7 +26,7 @@ function App() {
         </header>
         <PostForm />
         <hr />
-        <Post />
+        <Posts />
       </div>
     </Provider>
   );
